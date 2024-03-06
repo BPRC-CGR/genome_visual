@@ -3,6 +3,7 @@
 
 3 files are required.
 
+```
 library(tidyverse)
 library(gggenomes)
   
@@ -33,3 +34,4 @@ g
   
 ggsave(g, file="Fig1.eps", device="eps")
 ggsave(g, file="Fig1.png", device="png")
+```
